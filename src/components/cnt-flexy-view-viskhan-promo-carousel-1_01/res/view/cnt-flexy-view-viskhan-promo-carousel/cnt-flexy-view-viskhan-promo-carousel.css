@@ -1,0 +1,43 @@
+.d-block {
+  width: 1140px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.titl {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  padding-top: 150px;
+  text-align: center;
+  font-size: 4em;
+  font-weight: 600;
+  color: white;
+}
+
+.text {
+  margin-bottom: 20px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
+}
+
+.my-button {
+  width: 160px;
+  height: 40px;
+  margin: auto;
+  font-size: 1.2em;
+  border: none;
+  text-align: center;
+  color: white;
+  background-color: forestgreen;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  margin: auto;
+}
+
+

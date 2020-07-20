@@ -1,0 +1,179 @@
+.skills {
+  padding: 40px 0 70px 0;
+  background-color: #f8f8ff;
+  font-family: 'Noto Serif', serif;
+}
+
+.titl {
+  margin: 50px 0 80px 0;
+  text-align: center;
+  font-size: 3em;
+}
+
+.my-item {
+  width: 200px;
+  height: 8px;
+  margin: 20px 0 0 0;
+  background-color: #8ff6c3;
+  border-radius: 5px;
+}
+
+.html {
+  width: 180px;
+  height: 8px;
+  background-color: forestgreen;
+  border-radius: 5px;
+}
+
+.css {
+  width: 160px;
+  height: 8px;
+  background-color: forestgreen;
+  border-radius: 5px;
+}
+
+.js {
+  width: 140px;
+  height: 8px;
+  background-color: forestgreen;
+  border-radius: 5px;
+}
+
+.wordpress {
+  width: 140px;
+  height: 8px;
+  background-color: forestgreen;
+  border-radius: 5px;
+}
+
+.angular {
+  width: 140px;
+  height: 8px;
+  background-color: forestgreen;
+  border-radius: 5px;
+}
+
+.stencil {
+  width: 140px;
+  height: 8px;
+  background-color: forestgreen;
+  border-radius: 5px;
+}
+
+.react {
+  width: 140px;
+  height: 8px;
+  background-color: forestgreen;
+  border-radius: 5px;
+}
+
+.bootstrap {
+  width: 180px;
+  height: 8px;
+  background-color: forestgreen;
+  border-radius: 5px;
+}
+
+.image-html {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-css {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-js {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-wp {
+  width: 185px;
+  height: 185px;
+  background-size: 100%;
+  background-position: center;
+  margin: 15px 0 0 10px;
+}
+
+.image-angular {
+  width: 200px;
+  height: 200px;
+  background-size: 100%;
+  background-position: center;
+  margin: 15px 0 0 0;
+}
+
+.image-stencil {
+  width: 200px;
+  height: 200px;
+  background-size: 100%;
+  border-radius: 50%;
+  background-position: center;
+  margin: 15px 0 0 0;
+}
+
+.image-react {
+  width: 200px;
+  height: 200px;
+  background-size: 100%;
+  border-radius: 50%;
+  border: 3px solid #1c567b;
+  background-position: center;
+  margin: 15px 0 0 0;
+}
+
+.image-bootstrap {
+  width: 200px;
+  height: 200px;
+  background-size: 100%;
+  border-radius: 50%;
+  background-position: center;
+  margin: 15px 0 0 0;
+}
+
+.my-block {
+  margin: 20px 0 50px 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .skills {
+    padding: 0 0 20px 0;
+    background-color: ghostwhite;
+  }
+
+  .titl {
+    margin: 30px 0 40px 0;
+  }
+
+  .col-md-2 {
+    margin: 0 0 50px 0;
+  }
+
+  .image-html,
+  .image-css,
+  .image-js,
+  .image-wp,
+  .image-angular,
+  .image-stencil,
+  .image-react,
+  .image-bootstrap
+  {
+    margin: auto;
+  }
+
+  .my-item {
+    margin: auto;
+  }
+
+  .my-block {
+
+  }
+}

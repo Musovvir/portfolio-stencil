@@ -1,0 +1,62 @@
+.my-block {
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.musovvir {
+  font-size: 2em;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.developer {
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.item {
+  display: flex;
+}
+
+.marker {
+  font-size: 2.5em;
+  margin-right: 15px;
+  color: forestgreen;
+}
+
+.my-text {
+  margin-top: 8px;
+}
+
+.address {
+  opacity: .8;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+.nav {
+  display: flex;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.my-link {
+  margin: 0 25px 20px 0;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 600;
+  opacity: 0.8;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.my-link:hover {
+  color: forestgreen;
+}
+
+.search {
+  margin: 5px 20px 20px 0;
+  justify-content: end;
+  text-align: end;
+  cursor: pointer;
+}
