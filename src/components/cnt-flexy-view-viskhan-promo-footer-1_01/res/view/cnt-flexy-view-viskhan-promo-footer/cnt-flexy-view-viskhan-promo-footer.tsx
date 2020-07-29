@@ -56,7 +56,7 @@ export class CntFlexyViewViskhanPromoFooter implements ComponentInterface {
 
   render() {
     return (
-      <div class='footer'>
+      <div class='footer' id='footer'>
         <div class="container">
           <div class="row">
             <div class="col-2" onClick={() => this.clickFooterTelephone.emit("Telephone")}>

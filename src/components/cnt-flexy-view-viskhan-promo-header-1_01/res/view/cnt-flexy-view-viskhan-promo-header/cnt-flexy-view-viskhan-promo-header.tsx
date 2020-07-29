@@ -40,7 +40,7 @@ export class CntFlexyViewViskhanPromoHeader implements ComponentInterface {
 
   render() {
     return (
-      <div class='header'>
+      <div class='header' id='header'>
         <div class='container-fluid'>
           <div class="row justify-content-between mt-3">
             <div class="col-md-4">
@@ -112,13 +112,19 @@ export class CntFlexyViewViskhanPromoHeader implements ComponentInterface {
             <div class="col-8">
               <nav class="nav">
                 <div class="my-link" onClick={() => this.clickHeaderMyLink.emit("MyLink")}>
-                  {this.payload[1].home}
+                  <a class="text-link" href="#header">
+                    {this.payload[1].home}
+                  </a>
                 </div>
                 <div class="my-link" onClick={() => this.clickHeaderMyLink.emit("MyLink")}>
-                  {this.payload[1].about}
+                  <a class="text-link" href="#about">
+                    {this.payload[1].about}
+                  </a>
                 </div>
                 <div class="my-link" onClick={() => this.clickHeaderMyLink.emit("MyLink")}>
-                  {this.payload[1].contacts}
+                  <a class="text-link" href="#footer">
+                    {this.payload[1].contacts}
+                  </a>
                 </div>
               </nav>
             </div>

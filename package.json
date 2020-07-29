@@ -1,6 +1,6 @@
 {
-  "name": "promo-viskhan",
-  "version": "0.0.1",
+  "name": "stencil-viskhan-promo-v2",
+  "version": "0.2.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -27,5 +27,14 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Musovvir/portfolio-stencil.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Musovvir/portfolio-stencil/issues"
+  },
+  "homepage": "https://github.com/Musovvir/portfolio-stencil#readme"
 }

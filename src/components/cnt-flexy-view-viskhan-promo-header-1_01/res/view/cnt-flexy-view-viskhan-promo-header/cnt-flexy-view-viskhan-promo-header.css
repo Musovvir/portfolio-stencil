@@ -48,6 +48,7 @@ hr {
   font-weight: 600;
   opacity: 0.8;
   font-family: 'Sawarabi Mincho', sans-serif;
+  color: #100013;
 }
 
 .my-link:hover {
@@ -59,4 +60,9 @@ hr {
   justify-content: end;
   text-align: end;
   cursor: pointer;
+}
+
+.text-link {
+  color: #000 !important;
+  text-decoration: none
 }

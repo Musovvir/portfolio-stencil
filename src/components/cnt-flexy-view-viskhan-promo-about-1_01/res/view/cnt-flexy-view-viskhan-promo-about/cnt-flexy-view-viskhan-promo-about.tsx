@@ -52,7 +52,7 @@ export class CntFlexyViewViskhanPromoAbout implements ComponentInterface {
 
   render() {
     return (
-      <div class='about'>
+      <div class='about' id='about'>
         <div class="container">
           <div class="row">
             <div class="col-md-5" data-aos="zoom-in">

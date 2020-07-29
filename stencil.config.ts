@@ -2,6 +2,7 @@ import { Config } from '@stencil/core';
 
 export const config: Config = {
   namespace: 'promo-viskhan',
+  globalStyle: 'src/global.css',
   taskQueue: 'async',
   outputTargets: [
     {
